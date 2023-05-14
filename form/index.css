@@ -1,0 +1,106 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+html{
+    font-size: 62.5%;
+  }
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.header{
+    
+    width:55rem;
+    text-align: center;
+    
+}
+.container{
+    width: 55rem;
+}
+.form{
+   
+    height: auto;
+    background-color:#1b1b32f0;;
+    color: white;
+}
+label{
+    font-size: 1.8rem;
+    margin-left: 4.5rem;
+    
+}
+
+#name,#email,#age,select{
+    
+    width: 40rem;
+    height: 3.7rem;
+    border-radius: 0.5rem;
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.definitely,#radioparagraph,.maybe,.notsure{
+    
+    width: 40rem;
+    margin-left: 4.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    
+
+}
+
+.favoritefeature,.radiotypeinfo,.personaldetail{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.front,.back,.full,#boxtypeinfo{
+  
+    width: 40rem;
+    margin-left: 4.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    
+}
+.comment{
+    font-size: 1.8rem;
+}
+textarea{
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+}
+.comment{
+    display: flex;
+    
+    
+    
+    
+
+}
+button{
+    width: 43rem;
+    padding: 0.7rem;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(139, 245, 139);
+    font-size: 1.7rem;
+
+}
+@media(max-width:700px){
+    html{
+        font-size: 40%;
+    }
+}
+@media(max-width:500px){
+    html{
+        font-size: 25%;
+    }
+    textarea{
+        
+    }
+}
