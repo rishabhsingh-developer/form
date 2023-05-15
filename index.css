@@ -30,6 +30,9 @@ label{
     margin-left: 4.5rem;
     
 }
+input[placeholder]{
+     font-size: 1.8rem;
+}
 
 #name,#email,#age,select{
     
@@ -100,7 +103,5 @@ button{
     html{
         font-size: 25%;
     }
-    textarea{
-        
-    }
+    
 }
